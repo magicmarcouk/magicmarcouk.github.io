@@ -1,0 +1,63 @@
+
+time: 5000
+
+aboutimages:
+ - url: img/about/1.jpg
+ - url: img/about/2.jpg
+ - url: img/about/3.jpg
+ - url: img/about/4.jpg
+ - url: img/about/5.jpg
+ - url: img/about/6.jpg
+
+testimonialimages:
+ - url: img/testimonial/1.jpg
+ - url: img/testimonial/2.jpg
+ - url: img/testimonial/3.jpg
+ - url: img/testimonial/4.jpg
+ - url: img/testimonial/5.jpg
+ - url: img/testimonial/6.jpg
+ - url: img/testimonial/7.jpg
+ - url: img/testimonial/8.jpg
+
+corporateimages:
+ - url: img/corporate/1.jpg
+ - url: img/corporate/2.jpg
+ - url: img/corporate/3.jpg
+ - url: img/corporate/4.jpg
+ - url: img/corporate/5.jpg
+ - url: img/corporate/6.jpg
+ - url: img/corporate/7.jpg
+ - url: img/corporate/8.jpg
+
+eventimages:
+ - url: img/event/1.jpg
+ - url: img/event/2.jpg
+ - url: img/event/3.jpg
+ - url: img/event/4.jpg
+ - url: img/event/5.jpg
+ - url: img/event/6.jpg
+ - url: img/event/7.jpg
+ - url: img/event/8.jpg
+ - url: img/event/9.jpg
+
+partyimages:
+ - url: img/party/1.jpg
+ - url: img/party/2.jpg
+ - url: img/party/3.jpg
+ - url: img/party/4.jpg
+ - url: img/party/5.jpg
+ - url: img/party/6.jpg
+ - url: img/party/7.jpg
+ - url: img/party/8.jpg
+ - url: img/party/9.jpg
+
+weddingimages:
+ - url: img/wedding/1.jpg
+ - url: img/wedding/2.jpg
+ - url: img/wedding/3.jpg
+ - url: img/wedding/4.jpg
+ - url: img/wedding/5.jpg
+ - url: img/wedding/6.jpg
+ - url: img/wedding/7.jpg
+ - url: img/wedding/8.jpg
+ - url: img/wedding/9.jpg

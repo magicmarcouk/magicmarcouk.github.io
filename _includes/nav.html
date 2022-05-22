@@ -1,0 +1,77 @@
+<!-- Navbar -->
+<div class="w3-top w3-black w3-hide-small w3-hide-medium w3-content">
+    <div class="w3-container w3-content w3-justify" style="max-width:800px">
+        <div class="w3-bar w3-card w3-small " >
+
+            <a href="{{ site.url }}/" class="w3-bar-item w3-button w3-mobile w3-padding-large">HOME </a>
+            <a class="w3-bar-item w3-hide-small " style="padding-top: 12px;padding-bottom: 12px;">&clubs;</a>
+
+            <div class="w3-dropdown-hover w3-mobile"style="padding-top:0px;padding-bottom: 0px;">
+                 <button class="w3-button" style="padding-top:0px;padding-bottom: 0px;"><a href="#" class="w3-bar-item w3-button w3-mobile" style="padding-top:12px;padding-bottom:12px;">EVENTS</a></button>
+                <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
+                    <a href="{{ site.url }}/corporate-magician"   class="w3-bar-item w3-button w3-mobile">Corporate Magician</a>
+					<a href="{{ site.url }}/event-magician"   class="w3-bar-item w3-button w3-mobile">Event Magician</a>
+                    <a href="{{ site.url }}/party-magician"       class="w3-bar-item w3-button w3-mobile">Party Magician</a>
+                    <a href="{{ site.url }}/wedding-magician"     class="w3-bar-item w3-button w3-mobile">Wedding Magician</a>
+
+                </div>
+            </div>
+            <a class="w3-bar-item w3-hide-small" style="padding-top: 12px;padding-bottom: 12px;">&diams;</a>
+
+            <a href="{{ site.url }}/testimonials" class="w3-bar-item w3-button w3-mobile w3-padding-large">TESTIMONIALS</a>
+            <a class="w3-bar-item w3-hide-small" style="padding-top: 12px;padding-bottom: 12px;">&hearts;</a>
+
+            <div class="w3-dropdown-hover w3-mobile"style="padding-top:0px;padding-bottom: 0px;">
+                <button class="w3-button"style="padding-top:0px;padding-bottom: 0px;"><a href="#" class="w3-bar-item w3-button w3-mobile"style="padding-top:12px;padding-bottom:12px;" >ABOUT</a></button>
+                <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
+					<a href="{{ site.url }}/about" class="w3-bar-item w3-button w3-mobile">About Marco</a>
+                    <a href="{{ site.url }}/charity-poster"   class="w3-bar-item w3-button w3-mobile">Charity Poster</a>
+                    <a href="{{ site.url }}/clients"          class="w3-bar-item w3-button w3-mobile">Clients</a>
+					<a href="{{ site.url }}/faq"          class="w3-bar-item w3-button w3-mobile">Frequently Asked Questions</a>
+                </div>
+            </div>
+            <a class="w3-bar-item w3-hide-small" style="padding-top: 12px;padding-bottom: 12px;">&spades;</a>
+
+            <a href="#contact"  class="w3-bar-item w3-button  w3-mobile w3-highway-red"style="padding-top: 12px;padding-bottom: 12px;">CONTACT</a>
+        </div>
+    </div>
+</div>
+
+
+<nav class="w3-sidenav w3-white w3-animate-left w3-bar-block  w3-card w3-center " style="display:none;z-index:5">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-large w3-bar-item w3-center w3-black">Close &times;</a>
+    <a class="w3-bar-item w3-button w3-black" href="{{ site.url }}/"><b>Home</b></a>
+    <a class="w3-bar-item w3-button w3-black" href="#"><b>Events</b></a>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/corporate-magician">Corporate Magician</a>
+	<a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/event-magician">Event Magician</a>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/party-magician">Party Magician</a>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/wedding-magician">Wedding Magician</a>
+    <a class="w3-bar-item w3-button w3-black" href="{{ site.url }}/testimonials"><b>Testimonials</b></a>
+    <a class="w3-bar-item w3-button w3-black" href="#"><b>About</b></a>
+	<a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/about">About Marco</a>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/charity-poster">Charity Poster</a>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/clients">Clients</a>
+        <a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/faq">FAQ</a>
+        <a class="w3-bar-item w3-button w3-highway-red"href="{{ site.url }}#contact"><b>Contact</b></a>
+    
+
+</nav>
+
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"></div>
+
+<div class="w3-container  w3-black ">
+  <span class="w3-opennav w3-xxlarge" onclick="w3_open()">&#9776;</span>
+</div>
+     
+<script>
+function w3_open() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+    document.getElementsByClassName("w3-overlay")[0].style.display = "block";
+}
+function w3_close() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+    document.getElementsByClassName("w3-overlay")[0].style.display = "none";
+}
+</script>
+
+

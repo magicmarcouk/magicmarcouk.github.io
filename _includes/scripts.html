@@ -1,0 +1,13 @@
+
+<script>
+
+    window.onload = choosePic;
+
+    function choosePic()
+    {
+        var randomNum = Math.floor(Math.random() * 10)+1;
+        document.getElementById("bannerPic").src = "{{ site.url }}/img/headers/marco" + randomNum.toString() + ".jpg"
+        document.getElementById("bannerPic").alt = "marco" + randomNum.toString();
+    }
+
+</script>

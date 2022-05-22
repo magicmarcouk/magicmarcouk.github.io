@@ -1,0 +1,53 @@
+
+<form
+    class="w3-row w3-center w3-block"
+    action="https://formsubmit.co/3de194537b88e99dd79e0679794195cf"
+    method="POST">
+	
+    <input type="hidden" name="_next" value="{{ site.url }}/thanks" />
+
+    <input      type="text" name="name"
+                class="w3-col s6 w3-padding w3-border"
+                placeholder="First and Last (Required)"
+                required="">
+    <input      type="text" name="phone"
+                class="w3-col s6 w3-padding w3-border"
+                placeholder="Contact Number (Required)"
+				required="">
+    <br>
+    <input      type="email" name="email"
+                class="w3-col s6 w3-padding w3-border"
+                placeholder="email@domain.com (Required)"
+                required="" >
+    <input      type="text" name="location"
+                class="w3-col s6 w3-padding w3-border"
+                placeholder="Event Location (Required)"
+                required="" >
+    <br>
+    <input      type="text" name="date"
+                onfocus="(this.type='date')"
+                class="w3-col s12 w3-padding  w3-border"
+                placeholder="Event Date (Required)"
+                required="" >
+    <br>
+    <textarea   name="message"
+                class="w3-col s12 w3-padding w3-border"
+                placeholder="Event Details such as Event Type, Number of Guests, Start time"
+                rows=5
+                style="resize: none;"
+    /></textarea>
+        
+    <!-- Google Captcha-->
+    <input type="text" name="_honey" style="display:none">
+    
+    <!-- -->
+    <label  class="w3-col w3-padding"><strong>Your information will only be used to communicate with Marco regarding  your event</strong></label>
+    <br>
+    <button     type="submit"
+                id="sendBtn"
+                class="w3-col s12 w3-padding w3-green">Send</button>
+
+</form>
+
+
+

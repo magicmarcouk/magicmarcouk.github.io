@@ -1,0 +1,19 @@
+title: Magic Marco
+url: https://www.magicmarco.co.uk
+#url: http://localhost:4000
+
+permalink: pretty
+safe: true
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown
+
+kramdown:
+    smart_quotes:  ["apos", "apos", "ldquo", "rdquo"]
+    html_to_native: true
+
+encoding: utf-8
+
+# Use this for production
+sass:
+    style: compressed
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]

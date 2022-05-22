@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+    {% include head.html %}
+    
+    <body>
+    
+        <!--Header -->
+        {% include header.html %}
+        
+        <!--Main -->
+        <main>
+			
+			{% include events.html %}
+			
+            <div class="w3-container w3-content w3-justify w3-padding-64" style="max-width:800px">
+                {% if page.title %}
+                    <h1 class="w3-center">{{ page.title }}</h1>
+                    <br/>
+                {% endif %}
+                {{ content | smartify }}
+                <br/>
+            </div>
+			
+            {% include contact.html %}
+			
+        </main>
+
+        {% include footer.html %}
+    
+    </body>
+</html>
