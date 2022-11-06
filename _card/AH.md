@@ -1,6 +1,7 @@
 ---
 layout: card
-value: A
-suit: H
+title: Ace of Hearts
+value: Ace
+suit: Hearts
 img: img/cards/AH.png
 ---

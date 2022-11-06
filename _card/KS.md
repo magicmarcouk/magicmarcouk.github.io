@@ -1,6 +1,7 @@
 ---
 layout: card
-value: K
-suit: S
+title: King of Spades
+value: King
+suit: Spades
 img: img/cards/KS.png
 ---

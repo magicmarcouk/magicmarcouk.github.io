@@ -1,6 +1,7 @@
 ---
 layout: card
-value: J
-suit: D
+title: Jack of Diamonds
+value: Jack
+suit: Diamonds
 img: img/cards/JD.png
 ---

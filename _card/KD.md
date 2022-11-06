@@ -1,6 +1,7 @@
 ---
 layout: card
-value: K
-suit: D
+title: King of Diamonds
+value: King
+suit: Diamonds
 img: img/cards/KD.png
 ---

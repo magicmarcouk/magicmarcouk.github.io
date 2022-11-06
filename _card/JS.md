@@ -1,6 +1,7 @@
 ---
 layout: card
-value: J
-suit: S
+title: Jack of Spades
+value: Jack
+suit: Spades
 img: img/cards/JS.png
 ---

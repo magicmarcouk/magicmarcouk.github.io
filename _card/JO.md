@@ -1,6 +1,6 @@
 ---
 layout: card
-value: K
-suit: S
+title: Joker
+value: Joker
 img: img/cards/JO.png
 ---

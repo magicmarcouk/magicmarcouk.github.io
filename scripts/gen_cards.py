@@ -1,34 +1,59 @@
 
+#
+# Function to write out md file
+#
+def write_card_md(output_path, img, value, suit):
+    
+    # String containing page title
+    title = "%s"%value
+    if suit != "":
+        title += " of %s"%(suit)
+    
+    # Create file
+    with open(output_path, 'w') as f:
+        f.write('---\n')
+        f.write('layout: card\n')
+        f.write('title: %s\n'%(title) )
+        f.write('value: %s\n'%value)
+        if suit != "":
+            f.write('suit: %s\n'%suit)
+        f.write('img: %s\n'%img)
+        f.write('---\n')
 
-values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
-suits = ["C", "D", "H", "S"]
+suits = {
+    "C": "Clubs",
+    "D": "Diamonds",
+    "H": "Hearts",
+    "S": "Spades",
+}
 
-# Generate Card Values
+values = {
+    "A":"Ace",
+    "2":"Two",
+    "3":"Three",
+    "4":"Four",
+    "5":"Five",
+    "6":"Six",
+    "7":"Seven",
+    "8":"Eight",
+    "9":"Nine",
+    "10":"Ten",
+    "J":"Jack",
+    "Q":"Queen",
+    "K":"King",
+}
+
+# Generate Cards
 for value in values:
-    # Generate Card Suits
     for suit in suits:
-        
         #
         path = "_card/%s%s.md"%(value, suit)
-        
-        # Create file
-        with open(path, 'w') as f:
-            f.write('---\n')
-            f.write('layout: card\n')
-            f.write('value: %s\n'%value)
-            f.write('suit: %s\n'%suit)
-            f.write('img: img/cards/%s%s.png\n'%(value, suit))
-            f.write('---\n')
-            
-# Joker
+        img = "img/cards/%s%s.png"%(value, suit)
+        write_card_md(path, img, values[value], suits[suit])
 
-
-# Create file
+# Generate Joker
 path = "_card/JO.md"
-with open(path, 'w') as f:
-    f.write('---\n')
-    f.write('layout: card\n')
-    f.write('value: %s\n'%value)
-    f.write('suit: %s\n'%suit)
-    f.write('img: img/cards/JO.png\n')
-    f.write('---\n')
+img = "img/cards/JO.png"
+write_card_md(path, img, "Joker", "")
+
+

@@ -1,6 +1,7 @@
 ---
 layout: card
-value: Q
-suit: C
+title: Queen of Clubs
+value: Queen
+suit: Clubs
 img: img/cards/QC.png
 ---

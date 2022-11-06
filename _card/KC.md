@@ -1,6 +1,7 @@
 ---
 layout: card
-value: K
-suit: C
+title: King of Clubs
+value: King
+suit: Clubs
 img: img/cards/KC.png
 ---

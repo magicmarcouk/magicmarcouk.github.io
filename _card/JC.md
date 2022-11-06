@@ -1,6 +1,7 @@
 ---
 layout: card
-value: J
-suit: C
+title: Jack of Clubs
+value: Jack
+suit: Clubs
 img: img/cards/JC.png
 ---

@@ -1,6 +1,7 @@
 ---
 layout: card
-value: Q
-suit: H
+title: Queen of Hearts
+value: Queen
+suit: Hearts
 img: img/cards/QH.png
 ---

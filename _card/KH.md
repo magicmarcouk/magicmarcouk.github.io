@@ -1,6 +1,7 @@
 ---
 layout: card
-value: K
-suit: H
+title: King of Hearts
+value: King
+suit: Hearts
 img: img/cards/KH.png
 ---

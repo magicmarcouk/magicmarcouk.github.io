@@ -1,6 +1,7 @@
 ---
 layout: card
-value: Q
-suit: S
+title: Queen of Spades
+value: Queen
+suit: Spades
 img: img/cards/QS.png
 ---
