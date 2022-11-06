@@ -22,3 +22,5 @@ exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
 collections:
   card:
     output: true
+  location:
+    output: true
