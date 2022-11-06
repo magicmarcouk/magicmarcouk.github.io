@@ -21,14 +21,14 @@ def write_card_md(output_path, img, value, suit):
         f.write('---\n')
 
 suits = {
-    "C": "Clubs",
-    "D": "Diamonds",
-    "H": "Hearts",
-    "S": "Spades",
+    "c": "Clubs",
+    "d": "Diamonds",
+    "h": "Hearts",
+    "s": "Spades",
 }
 
 values = {
-    "A":"Ace",
+    "a":"Ace",
     "2":"Two",
     "3":"Three",
     "4":"Four",
@@ -38,9 +38,9 @@ values = {
     "8":"Eight",
     "9":"Nine",
     "10":"Ten",
-    "J":"Jack",
-    "Q":"Queen",
-    "K":"King",
+    "j":"Jack",
+    "q":"Queen",
+    "k":"King",
 }
 
 # Generate Cards
@@ -48,11 +48,11 @@ for value in values:
     for suit in suits:
         #
         path = "_card/%s%s.md"%(value, suit)
-        img = "img/cards/%s%s.png"%(value, suit)
+        img = "img/cards/%s%s.png"%(value.upper(), suit.upper())
         write_card_md(path, img, values[value], suits[suit])
 
 # Generate Joker
-path = "_card/JO.md"
+path = "_card/jo.md"
 img = "img/cards/JO.png"
 write_card_md(path, img, "Joker", "")
 
