@@ -24,7 +24,7 @@ A:  Timing depends on the type of event and the number of guests attending. Marc
 
 **Q: How much does Marco charge?**
 
-A:  Marco has been a professional magician for more than 30 years, his concept has always been value for money and quality of performance. With that in mind, Marco's fee is £350 for up to two hours for events within the M25. Outside the M25 there is a mileage charge of £1 per mile (one way).
+A:  Marco has been a professional magician for more than 30 years, his concept has always been value for money and quality of performance. With that in mind, Marco's fee is £400 for up to two hours for events within the M25. Outside the M25 there is a mileage charge of £1 per mile (one way).
 
 
 **Q: What if I want you for less than two hours?**
