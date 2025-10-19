@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Corportate Magician
+title: Corporate Magician
 ---
  
 Whether you are looking to organise a staff fun day, a formal dinner, a corporate meeting, a conference or an exhibition, Marco can fit his magic to your format, and will really give your guests something to talk about.
