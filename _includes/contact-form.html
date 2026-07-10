@@ -1,54 +1,70 @@
-
 <form
-    class="w3-row w3-center w3-block"
+    class="w3-row"
     action="https://formsubmit.co/3de194537b88e99dd79e0679794195cf"
-    method="POST">
-	
-    <input type="hidden" name="_next" value="{{ site.url }}/thanks" />
+    method="post"
+    aria-describedby="enquiry-form-help enquiry-form-privacy">
 
-    <input      type="text" name="name"
-                class="w3-col s6 w3-padding w3-border"
-                placeholder="First and Last (Required)"
-                required="">
-    <input      type="text" name="phone"
-                class="w3-col s6 w3-padding w3-border"
-                placeholder="Contact Number (Required)"
-				required="">
-    <br>
-    <input      type="email" name="email"
-                class="w3-col s6 w3-padding w3-border"
-                placeholder="email@domain.com (Required)"
-                required="" >
-    <input      type="text" name="location"
-                class="w3-col s6 w3-padding w3-border"
-                placeholder="Event Location (Required)"
-                required="" >
-    <br>
-    <input      type="text" name="date"
-                onfocus="(this.type='date')"
-                class="w3-col s12 w3-padding  w3-border"
-                placeholder="Event Date (Required)"
-                required="" >
-    <br>
-    <textarea   name="message"
-                class="w3-col s12 w3-padding w3-border"
-                placeholder="Event Details such as Event Type, Number of Guests, Start time"
-                rows=5
-                style="resize: none;"
-    /></textarea>
-        
-    <!-- Google Captcha-->
-    <input type="text" name="_honey" style="display:none">
-    
-    <!-- -->
-    <label  class="w3-col w3-padding"><strong>Marco responds to every enquiry within 24 hours.<br>Please check your SPAM/JUNK folder in case it gets sent there.</strong></label>
-    <br>
-    <button     type="submit"
-                id="sendBtn"
-                class="w3-col s12 w3-padding w3-green">Send</button>
-    
+    <input type="hidden" name="_next" value="{{ '/thanks/' | absolute_url }}">
+    <input type="hidden" name="_subject" value="Website event enquiry">
 
+    <p id="enquiry-form-help" class="w3-col s12">
+        Fields marked <span aria-hidden="true">*</span> are required. Details such as the event type, approximate number of guests and preferred performance time will help Marco give you a useful answer.
+    </p>
+
+    <div class="w3-col s12 m6 w3-padding-small">
+        <label for="enquiry-name"><strong>Your name <span aria-hidden="true">*</span></strong></label>
+        <input id="enquiry-name" type="text" name="name"
+               class="w3-input w3-border" autocomplete="name" required
+               aria-required="true">
+    </div>
+
+    <div class="w3-col s12 m6 w3-padding-small">
+        <label for="enquiry-phone"><strong>Contact number <span aria-hidden="true">*</span></strong></label>
+        <input id="enquiry-phone" type="tel" name="phone"
+               class="w3-input w3-border" autocomplete="tel" required
+               aria-required="true">
+    </div>
+
+    <div class="w3-col s12 m6 w3-padding-small">
+        <label for="enquiry-email"><strong>Email address <span aria-hidden="true">*</span></strong></label>
+        <input id="enquiry-email" type="email" name="email"
+               class="w3-input w3-border" autocomplete="email" required
+               aria-required="true">
+    </div>
+
+    <div class="w3-col s12 m6 w3-padding-small">
+        <label for="enquiry-location"><strong>Event location <span aria-hidden="true">*</span></strong></label>
+        <input id="enquiry-location" type="text" name="location"
+               class="w3-input w3-border" required aria-required="true"
+               placeholder="Venue or town">
+    </div>
+
+    <div class="w3-col s12 w3-padding-small">
+        <label for="enquiry-date"><strong>Event date <span aria-hidden="true">*</span></strong></label>
+        <input id="enquiry-date" type="date" name="date"
+               class="w3-input w3-border" required aria-required="true">
+    </div>
+
+    <div class="w3-col s12 w3-padding-small">
+        <label for="enquiry-details"><strong>Event details</strong></label>
+        <textarea id="enquiry-details" name="message"
+                  class="w3-input w3-border" rows="5"
+                  aria-describedby="enquiry-details-help"></textarea>
+        <small id="enquiry-details-help">For example: event type, approximate guest numbers, start time and the kind of performance you are considering.</small>
+    </div>
+
+    <div aria-hidden="true" style="position:absolute; left:-9999px;">
+        <label for="enquiry-website">Leave this field empty</label>
+        <input id="enquiry-website" type="text" name="_honey" tabindex="-1" autocomplete="off">
+    </div>
+
+    <p id="enquiry-form-privacy" class="w3-col s12 w3-padding-small">
+        Your details will be sent to Marco through FormSubmit and used only to respond to your enquiry. Read the <a href="{{ '/privacy/' | relative_url }}">privacy notice</a> before sending your information.
+    </p>
+
+    <p class="w3-col s12 w3-padding-small"><strong>Marco aims to respond within 24 hours. Please check your spam or junk folder if you have not received a reply.</strong></p>
+
+    <div class="w3-col s12 w3-padding-small">
+        <button type="submit" id="sendBtn" class="w3-button w3-block w3-green">Send enquiry</button>
+    </div>
 </form>
-
-
-
