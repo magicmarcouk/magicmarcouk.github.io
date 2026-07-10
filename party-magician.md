@@ -3,14 +3,23 @@ layout: default
 title: Party Magician to Entertain Your Guests
 ---
 
-Marco's close-up and table magic shows are a perfect way of making your party stand out from the crowd. If you're looking to organise a party, whether it's for a special birthday, wedding anniversary or even no particular occasion, Marco is a fun and memorable addition to your guest list!
- 
-Depending on the type of party you are planning to host, Marco can simply work round your guests mingling during drinks, perform a stand up show, do table magic, or deliver a combination of these styles. Whatever the format of your event, Marco can fit in, and is happy to advise on what has worked well in his vast experience.
- 
-Marco isn't just a truly amazing Magician, he is also a fantastic entertainer. He has a great way with people and provides humour in all his performances. He works well in an informal party environment where people are mingling, drinking and enjoying themselves. He is able to judge a good time to approach a group and will perform unforgettable tricks that will leave your guests feeling amazed and in awe.
- 
-If you're organising a party for someone special, Marco can personalise some of his tricks, for example making their photograph magically appear on a playing card that has been randomly chosen, inspected and signed by a guest.
-So if you're looking to organise a special party, [**contact Marco**](#contact-direct). He will certainly make your party memorable and leave your guests feeling excited and enthusiastic about magic!
+Whether you are planning a milestone birthday, anniversary, family celebration or simply a party with friends, Marco's close-up magic gives guests an easy way to laugh, react and join in together.
+
+## Magic that works around your party
+
+Marco can mingle with groups during drinks, perform table magic during a meal or present a stand-up show for everyone at once. These formats can be combined to suit an informal house party, a private dining room or a larger venue.
+
+Marco approaches guests at a natural moment and uses humour as part of the performance. The magic adds energy to the party without stopping conversation or taking attention away from the person being celebrated.
+
+## Make it personal
+
+For a special birthday or anniversary, Marco can incorporate a photograph into a playing-card trick. The signed card becomes a souvenir for the guest of honour.
+
+> “In both cases he was the hit of the evening: great magic, very good with people and an excellent entertainer.”
+>
+> — Richard & Julia Jackson
+
+[**Enquire about your party date**](#contact-direct) and tell Marco about the occasion, venue and number of guests.
 
 <div class="w3-content w3-display-container">
 	{% for image in site.data.gallery.partyimages %}
