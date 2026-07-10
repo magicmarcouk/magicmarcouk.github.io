@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Frequently Asked Questions
+description: Answers about booking Magic Marco, performance formats, venues, travel, payment and planning your event entertainment.
 ---
 
 

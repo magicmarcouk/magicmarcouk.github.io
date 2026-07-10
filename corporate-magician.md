@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Corporate Magician
+description: Close-up, table and stand-up magic for conferences, exhibitions, receptions, awards dinners and company celebrations.
 ---
 Marco provides flexible entertainment for conferences, exhibitions, client receptions, awards dinners, staff celebrations and other corporate events. His close-up magic helps colleagues and clients relax, start conversations and share an experience.
 
@@ -23,7 +24,7 @@ Marco can make a company logo appear on a playing card chosen, inspected and sig
 
 <div class="w3-content w3-display-container">
 	{% for image in site.data.gallery.corporateimages %}
-	<img class="mySlides" src="{{ site.url }}/{{ image.url}}" alt="{{ image.alt}}" style="margin:auto; width:90%; max-height:500px; object-fit: cover;">
+	<img class="mySlides" src="{{ image.url | relative_url }}" alt="" loading="lazy" decoding="async" style="margin:auto; width:90%; max-height:500px; object-fit: cover;">
 	{% endfor %}
 </div>
 {% include gallery.html %}

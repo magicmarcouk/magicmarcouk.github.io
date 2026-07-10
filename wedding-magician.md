@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Wedding Magician
+description: Close-up, table and stand-up wedding magic for drinks receptions, photographs, wedding breakfasts and evening celebrations.
 ---
 Close-up magic gives guests a shared experience to enjoy and talk about throughout your wedding day. Marco adapts his performance to your schedule, venue and mix of day and evening guests.
 
@@ -23,7 +24,7 @@ Marco can personalise a trick by making a photograph of the newlyweds appear on 
 
 <div class="w3-content w3-display-container">
 	{% for image in site.data.gallery.weddingimages %}
-	<img class="mySlides" src="{{ site.url }}/{{ image.url}}" alt="{{ image.alt}}" style="margin:auto; width:90%; max-height:500px; object-fit: cover;">
+	<img class="mySlides" src="{{ image.url | relative_url }}" alt="" loading="lazy" decoding="async" style="margin:auto; width:90%; max-height:500px; object-fit: cover;">
 	{% endfor %}
 </div>
 {% include gallery.html %}

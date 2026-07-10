@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Party Magician to Entertain Your Guests
+description: Close-up, table and stand-up magic for birthdays, anniversaries, family celebrations and private parties.
 ---
 
 Whether you are planning a milestone birthday, anniversary, family celebration or simply a party with friends, Marco's close-up magic gives guests an easy way to laugh, react and join in together.
@@ -23,7 +24,7 @@ For a special birthday or anniversary, Marco can incorporate a photograph into a
 
 <div class="w3-content w3-display-container">
 	{% for image in site.data.gallery.partyimages %}
-	<img class="mySlides" src="{{ site.url }}/{{ image.url}}" alt="{{ image.alt}}" style="margin:auto; width:90%; max-height:500px; object-fit: cover;">
+	<img class="mySlides" src="{{ image.url | relative_url }}" alt="" loading="lazy" decoding="async" style="margin:auto; width:90%; max-height:500px; object-fit: cover;">
 	{% endfor %}
 </div>
 {% include gallery.html %}

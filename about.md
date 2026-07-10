@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Where did the magic begin?
+description: Read how Marco began performing magic at the Hammersmith Odeon in 1977 and developed his career as a professional magician.
 ---
 
 Marco's career in magic began backstage at one of London's best-known entertainment venues and grew through years of live performance at private, public and corporate events.
@@ -33,7 +34,7 @@ Marco has worked with magicians including Derren Brown, Dynamo, Troy and Magical
 
 <div class="w3-content w3-display-container">
 	{% for image in site.data.gallery.aboutimages %}
-		<img class="mySlides" src="{{ site.url }}/{{ image.url}}" alt="{{ image.alt }}" style="margin:auto; width:90%; max-height:500px; object-fit: cover;">
+		<img class="mySlides" src="{{ image.url | relative_url }}" alt="" loading="lazy" decoding="async" style="margin:auto; width:90%; max-height:500px; object-fit: cover;">
 	{% endfor %}
 </div>
 {% include gallery.html %}

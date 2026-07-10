@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Charity Poster
+description: Discover the story of Marco's Bar and the signed playing-card poster donated to Comic Relief for a Red Nose Day auction.
 ---
 
 Between 1977 and 1996, Marco ran the backstage bar at the Hammersmith Odeon, now the Eventim Apollo. His customers included visiting performers, their guests, road crew and members of the press. Marco became known for performing magic behind the bar, and the room became known as “Marco's Bar”.
@@ -14,7 +15,7 @@ Marco involved performers and guests in personalised card tricks. Some cards dis
 After the production, the signed cards were mounted together to create the poster shown below. It was donated to Comic Relief for a Red Nose Day auction.
 
 <div class="w3-center">
-<img src="{{ site.url }}/img/about/poster.jpg" alt="Charity poster made from playing cards signed by Little Britain performers and guests" style="width:100%;"/>
+<img src="{{ '/img/about/poster.jpg' | relative_url }}" alt="Charity poster made from playing cards signed by Little Britain performers and guests" width="1280" height="1001" loading="lazy" style="width:100%;height:auto;">
 </div>
 
 [**Contact Marco about your charity or special event**](#contact-direct).

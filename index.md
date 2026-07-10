@@ -1,6 +1,7 @@
 ---
 layout: front
 title: Close-up Magician for Weddings, Parties and Corporate Events
+description: Magic Marco provides close-up, table and stand-up magic for weddings, parties, corporate functions and special events.
 ---
 
 Marco brings close-up magic, humour and decades of performing experience to weddings, private parties, corporate functions and special events in London, the South East and beyond. He works naturally among guests, creating shared moments that break the ice and get people talking.

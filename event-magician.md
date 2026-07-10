@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Event Magician
+description: Flexible close-up, table and stand-up magic for charity balls, dinners, club events and special celebrations.
 ---
 
 Close-up magic helps guests relax, break the ice and start conversations. It can work equally well at a charity ball, awards dinner, private dinner, club event or celebration where some guests are meeting for the first time.
@@ -26,7 +27,7 @@ Marco arrives ready to perform and does not need a changing area. He will discus
 
  <div class="w3-content w3-display-container">
 	 {% for image in site.data.gallery.eventimages %}
-	 <img class="mySlides" src="{{ site.url }}/{{ image.url}}" alt="{{ image.alt}}" style="margin:auto; width:90%; max-height:500px; object-fit: cover;">
+	 <img class="mySlides" src="{{ image.url | relative_url }}" alt="" loading="lazy" decoding="async" style="margin:auto; width:90%; max-height:500px; object-fit: cover;">
 	 {% endfor %}
  </div>
  {% include gallery.html %}

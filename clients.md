@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Clients
+description: See the celebrations, companies, venues and well-known guests Marco has entertained during his career as a magician.
 ---
 Marco performs at weddings, birthday parties for adults and children, corporate functions, Christmas celebrations, christenings, bar mitzvahs, awards dinners and charity events.
 
@@ -13,5 +14,5 @@ The image below shows a selection of companies and venues Marco has worked with.
 [**Enquire about booking Marco**](#contact-direct) for your party, corporate function or special occasion.
 
 <div class="w3-center">
-<img src="{{ site.url }}/img/about/clients.jpg" alt="Selection of companies and venues where Magic Marco has performed" style="width:100%;"/>
+<img src="{{ '/img/about/clients.jpg' | relative_url }}" alt="Selection of companies and venues where Magic Marco has performed" width="1792" height="1697" loading="lazy" style="width:100%;height:auto;">
 </div>

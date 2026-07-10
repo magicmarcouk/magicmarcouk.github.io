@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Thank You for Your Enquiry
+description: Confirmation that your event enquiry has been sent to Magic Marco.
+noindex: true
+sitemap: false
 ---
 
 Your message has been sent to Marco.

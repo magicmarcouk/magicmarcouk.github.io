@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Privacy Notice
+description: How Magic Marco collects, uses, shares and retains personal information submitted through the event enquiry form.
 ---
 
 Last updated: 10 July 2026
