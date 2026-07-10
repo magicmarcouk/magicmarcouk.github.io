@@ -9,7 +9,7 @@ Much of his work comes from recommendations and regular clients. Event organiser
 
 Over his career, Marco has performed for guests including Elton John, Brian May, Gary Barlow, Jamie Oliver, Tom Jones, Roger Taylor, Richard Branson, the Kaiser Chiefs, Stephen Fry and Van Morrison. He has also worked with companies, venues and private clients at events of many different sizes.
 
-The image below shows a selection of companies and venues Marco has worked with. You can also [read what clients say about his performances]({{ site.url }}/testimonials).
+The image below shows a selection of companies and venues Marco has worked with. You can also [read what clients say about his performances]({{ '/testimonials/' | relative_url }}).
 
 [**Enquire about booking Marco**](#contact-direct) for your party, corporate function or special occasion.
 

@@ -1,4 +1,8 @@
 **/.DS_Store
 
 /_site/
+.bundle/
+.jekyll-cache/
+.sass-cache/
+vendor/bundle/
 *.xcworkspace

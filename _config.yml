@@ -1,5 +1,8 @@
 title: Magic Marco
-url: https://www.magicmarco.co.uk/
+description: Close-up magician for weddings, parties, corporate functions and special events.
+social_image: /img/about/5.jpg
+url: https://magicmarco.co.uk
+baseurl: ""
 #url: http://localhost:4000
 
 permalink: pretty
@@ -16,7 +19,22 @@ encoding: utf-8
 # Use this for production
 sass:
     style: compressed
-exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+exclude:
+  - .github
+  - .scss
+  - .bundle
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CONTENT_FACT_CHECK.md
+  - EDITORIAL_STYLE_GUIDE.md
+  - SITE_IMPROVEMENT_PLAN.md
+  - node_modules
+  - gruntfile.js
+  - package.json
+  - scripts
+  - vendor
 
 
 collections:

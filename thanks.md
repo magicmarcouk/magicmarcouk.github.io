@@ -12,4 +12,4 @@ Marco aims to respond to every enquiry within 24 hours. Please check your spam o
 
 For an urgent enquiry, call or text Marco on [**07778 499 377**](tel:+447778499377).
 
-[Return to the home page]({{ site.url }}/).
+[Return to the home page]({{ '/' | relative_url }}).

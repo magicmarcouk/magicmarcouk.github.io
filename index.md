@@ -20,6 +20,6 @@ The performance can also be personalised for the occasion. A photograph, company
 >
 > — Jo Herbert, Herbert Engineering Ltd
 
-As well as [weddings]({{ site.url }}/wedding-magician), [private parties]({{ site.url }}/party-magician), [corporate events]({{ site.url }}/corporate-magician) and [other special events]({{ site.url }}/event-magician), Marco performs at charity balls, dinners, exhibitions, children's parties, bar mitzvahs, Christmas celebrations, product launches and proms.
+As well as [weddings]({{ '/wedding-magician/' | relative_url }}), [private parties]({{ '/party-magician/' | relative_url }}), [corporate events]({{ '/corporate-magician/' | relative_url }}) and [other special events]({{ '/event-magician/' | relative_url }}), Marco performs at charity balls, dinners, exhibitions, children's parties, bar mitzvahs, Christmas celebrations, product launches and proms.
 
-[Read more feedback from Marco's clients]({{ site.url }}/testimonials) or [enquire about your event](#contact-direct).
+[Read more feedback from Marco's clients]({{ '/testimonials/' | relative_url }}) or [enquire about your event](#contact-direct).

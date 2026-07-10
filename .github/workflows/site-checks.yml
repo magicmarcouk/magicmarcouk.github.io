@@ -1,0 +1,40 @@
+name: Site checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      LANG: C.UTF-8
+      LC_ALL: C.UTF-8
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build site
+        run: JEKYLL_ENV=production bundle exec jekyll build --strict_front_matter
+
+      - name: Check internal links and assets
+        run: ruby scripts/check_internal_links.rb _site
+
+      - name: Check HTML basics
+        run: ruby scripts/check_html_basics.rb _site
+
+      - name: Check spelling/style denylist
+        run: ruby scripts/check_spelling.rb
+
+      - name: Check launch output
+        run: ruby scripts/check_launch_output.rb _site
