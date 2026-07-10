@@ -1,43 +1,24 @@
 ---
 layout: front
+title: Close-up Magician for Weddings, Parties and Corporate Events
 ---
 
-Marco has been entertaining people with his magic since 1977. This experience, combined with his original tricks, amazing skills and flair for performing, makes him a fantastic choice of magician for weddings, parties, corporate events and many other occasions.
- 
-Being a Magician isn't just about performing tricks, it's about being able to entertain an audience and keep them hooked. Marco is charismatic, has a natural flair for entertainment and provides real humour in his performance. He has many long-standing customers and is repeatedly booked for events year after year. Marco constantly updates and develops new tricks, which keeps his performance original, fresh and exciting.
- 
-Although Marco has worked on TV and for many famous people and celebrities, he provides good value for money and is reliable, always ensuring his bookings are honoured. He even turned down a booking to entertain the Queen on Millennium Eve at the Dome due to a prior agreement!
- 
-Marco creates an atmosphere of amazement and fun with his unique style of magic and humour, leaving guests doubting their own eyes with his unbelievable tricks. If you're looking for an original act to wow your guests, Marco can be hired to perform at a wide range of events, including:
+Marco brings close-up magic, humour and decades of performing experience to weddings, private parties, corporate functions and special events in London, the South East and beyond. He works naturally among guests, creating shared moments that break the ice and get people talking.
 
-- [Weddings]({{ site.url }}/wedding-magician)
-- [Birthday Parties]({{ site.url }}/party-magician)
-- [Corporate Events]({{ site.url }}/corporate-magician)
-- Bar-Mitzvahs
-- Award Dinners
-- Charity Balls and Events
-- Children's Parties
-- Christenings
-- Christmas Parties
-- Civil Ceremonies
-- Dinner Parties
-- Exhibition Stands
-- Fashion Events
-- Football Club Dinners
-- Golf Club Dinners
-- Graduation Ball 
-- Green Room
-- New Years Eve 
-- Hospitality
-- Hunt Ball
-- Masked Ball
-- Magical Consultant
-- Private Functions
-- Product Launches
-- Promotional Events
-- Rugby Club Dinners
-- School Prom Night
-- Street Parties
-- TV, Film and Video
-- User Forums
-- Winter Ball
+<div class="w3-center w3-padding-16">
+  <a class="w3-button w3-highway-red w3-large" href="#contact-direct"><strong>Enquire about your date</strong></a>
+</div>
+
+## Magic that fits your event
+
+Marco has entertained audiences since 1977. He can mingle during a drinks reception, visit tables between courses or present a stand-up show for everyone to enjoy together. He will help you choose the format and timing that best suit your venue, schedule and guests.
+
+The performance can also be personalised for the occasion. A photograph, company logo or product can become part of a trick, giving guests a memorable connection to the event.
+
+> “Marco made our exhibition stand the busiest there! His brilliant tricks, great sense of humour and highly entertaining style ensured our sales team were busy and prospective customers entertained throughout the event.”
+>
+> — Jo Herbert, Herbert Engineering Ltd
+
+As well as [weddings]({{ site.url }}/wedding-magician), [private parties]({{ site.url }}/party-magician), [corporate events]({{ site.url }}/corporate-magician) and [other special events]({{ site.url }}/event-magician), Marco performs at charity balls, dinners, exhibitions, children's parties, bar mitzvahs, Christmas celebrations, product launches and proms.
+
+[Read more feedback from Marco's clients]({{ site.url }}/testimonials) or [enquire about your event](#contact-direct).

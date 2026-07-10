@@ -3,14 +3,18 @@ layout: default
 title: Charity Poster
 ---
 
-Between 1977 and 1996 Marco ran the backstage bar in the 'Hammersmith Odeon' (now known as the Hammersmith Apollo). During this time Marco became known for performing magic to his customers who were mainly people in the music industry, artists who played at the venue, their guests, road crew and press. It became known as 'Marco's Bar'.
+Between 1977 and 1996, Marco ran the backstage bar at the Hammersmith Odeon, now the Eventim Apollo. His customers included visiting performers, their guests, road crew and members of the press. Marco became known for performing magic behind the bar, and the room became known as “Marco's Bar”.
 
-In the early 1990s the venue became The Labatt's Apollo, and began to stage more theatre productions requiring more dressing rooms. A green room for guests was created at the front of house and the backstage bar was closed in 1996, becoming dressing room 7A.
+In the early 1990s, the venue became the Labatt's Apollo and began staging more theatre productions. When additional dressing-room space was needed, the backstage bar closed in 1996 and became dressing room 7A.
 
-In 2006 Phil McIntyre Entertainment presented 'Little Britain' at the Hammersmith Apollo. For reasons of nostalgia they transformed dressing room 7A back into 'Marco's bar', asking Marco to manage it and entertain the guests and VIPs pre-show.
-Marco involved various celebrities in some card tricks which involved cards ending up with celebrity photographs on the back and signatures on the front, and other cards signed and then stuck to the ceiling in a magical way. All the celebrities who signed the cards were either guests or performers in the 'Little Britain' tour of 2006.
-The signed cards were taken from the ceiling and made into poster with the original cards fastened to the poster and donated to Comic Relief/Red Nose Day who auctioned the collection.
+In 2006, Phil McIntyre Entertainment presented *Little Britain* at the Hammersmith Apollo. Dressing room 7A was transformed back into Marco's Bar, and Marco was invited to manage it and entertain guests and VIPs before the show.
+
+Marco involved performers and guests in personalised card tricks. Some cards displayed a celebrity photograph on the back and a signature on the front; other signed cards appeared on the ceiling as part of the magic.
+
+After the production, the signed cards were mounted together to create the poster shown below. It was donated to Comic Relief for a Red Nose Day auction.
 
 <div class="w3-center">
-<img src="{{ site.url }}/img/about/poster.jpg" alt="Magic Marco Close-up Magician Charity Poster" style="width:100%;"/>
+<img src="{{ site.url }}/img/about/poster.jpg" alt="Charity poster made from playing cards signed by Little Britain performers and guests" style="width:100%;"/>
 </div>
+
+[**Contact Marco about your charity or special event**](#contact-direct).
