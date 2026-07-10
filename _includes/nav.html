@@ -7,6 +7,7 @@
             <div class="nav-dropdown w3-dropdown-hover w3-bar-item">
                 <button type="button" class="w3-button w3-padding-large" aria-expanded="false" aria-controls="events-menu" onclick="toggleNavDropdown(this)">EVENTS</button>
                 <div id="events-menu" class="w3-dropdown-content w3-bar-block w3-dark-grey">
+                    <a href="{{ '/close-up-magician/' | relative_url }}" class="w3-bar-item w3-button">Close-up Magician</a>
                     <a href="{{ '/corporate-magician/' | relative_url }}" class="w3-bar-item w3-button">Corporate Magician</a>
                     <a href="{{ '/event-magician/' | relative_url }}" class="w3-bar-item w3-button">Event Magician</a>
                     <a href="{{ '/party-magician/' | relative_url }}" class="w3-bar-item w3-button">Party Magician</a>
@@ -39,6 +40,7 @@
     <button type="button" onclick="w3_close()" class="w3-button w3-large w3-bar-item w3-black">Close <span aria-hidden="true">&times;</span></button>
     <a class="w3-bar-item w3-button w3-black" href="{{ '/' | relative_url }}"><strong>Home</strong></a>
     <span class="w3-bar-item w3-black"><strong>Events</strong></span>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ '/close-up-magician/' | relative_url }}">Close-up Magician</a>
     <a class="w3-bar-item w3-button w3-dark-grey" href="{{ '/corporate-magician/' | relative_url }}">Corporate Magician</a>
     <a class="w3-bar-item w3-button w3-dark-grey" href="{{ '/event-magician/' | relative_url }}">Event Magician</a>
     <a class="w3-bar-item w3-button w3-dark-grey" href="{{ '/party-magician/' | relative_url }}">Party Magician</a>

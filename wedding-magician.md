@@ -3,7 +3,7 @@ layout: default
 title: Wedding Magician
 description: Close-up, table and stand-up wedding magic for drinks receptions, photographs, wedding breakfasts and evening celebrations.
 ---
-Close-up magic gives guests a shared experience to enjoy and talk about throughout your wedding day. Marco adapts his performance to your schedule, venue and mix of day and evening guests.
+[Close-up magic]({{ '/close-up-magician/' | relative_url }}) gives guests a shared experience to enjoy and talk about throughout your wedding day. Marco adapts his performance to your schedule, venue and mix of day and evening guests.
 
 ## When can Marco perform?
 

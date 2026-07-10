@@ -4,7 +4,7 @@ title: Party Magician to Entertain Your Guests
 description: Close-up, table and stand-up magic for birthdays, anniversaries, family celebrations and private parties.
 ---
 
-Whether you are planning a milestone birthday, anniversary, family celebration or simply a party with friends, Marco's close-up magic gives guests an easy way to laugh, react and join in together.
+Whether you are planning a milestone birthday, anniversary, family celebration or simply a party with friends, Marco's [close-up magic]({{ '/close-up-magician/' | relative_url }}) gives guests an easy way to laugh, react and join in together.
 
 ## Magic that works around your party
 

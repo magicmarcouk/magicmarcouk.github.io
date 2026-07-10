@@ -6,6 +6,8 @@ description: Magic Marco is based in London and performs close-up, table and sta
 
 Marco is based in London and regularly performs at weddings, private parties, corporate functions and special events across the UK and abroad. The location guides below highlight some of his core service areas, with wider UK and international bookings welcomed by arrangement. If your event is elsewhere, include the venue or postcode when you enquire so Marco can confirm availability, travel arrangements and timings.
 
+If you are searching for a magician near you, see the [magician near me]({{ '/magician-near-me/' | relative_url }}) guide for what to send when checking availability.
+
 ## Location guides
 
 {% assign areas = site.location | sort: "title" %}

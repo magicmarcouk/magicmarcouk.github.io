@@ -3,7 +3,7 @@ layout: default
 title: Corporate Magician
 description: Close-up, table and stand-up magic for conferences, exhibitions, receptions, awards dinners and company celebrations.
 ---
-Marco provides flexible entertainment for conferences, exhibitions, client receptions, awards dinners, staff celebrations and other corporate events. His close-up magic helps colleagues and clients relax, start conversations and share an experience.
+Marco provides flexible entertainment for conferences, exhibitions, client receptions, awards dinners, staff celebrations and other corporate events. His [close-up magic]({{ '/close-up-magician/' | relative_url }}) helps colleagues and clients relax, start conversations and share an experience.
 
 ## Flexible formats for business events
 

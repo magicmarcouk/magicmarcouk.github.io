@@ -8,6 +8,8 @@ Check whether Marco is available by calling him or completing the enquiry form b
 
 Marco is based in London and regularly performs across the UK and abroad. The [location guides]({{ '/locations/' | relative_url }}) highlight core service areas, with wider UK and international bookings welcomed by arrangement.
 
+If you are checking whether Marco can perform near your venue, see the [magician near me]({{ '/magician-near-me/' | relative_url }}) guide.
+
 <div class="w3-center">
   <img src="{{ '/img/about/5.jpg' | relative_url }}" alt="Magic Marco performing close-up magic for guests" width="1280" height="960" style="width:100%;height:auto;">
 </div>
