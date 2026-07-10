@@ -1,5 +1,5 @@
 title: Magic Marco
-url: https://magicmarcouk.github.io/
+url: https://www.magicmarco.co.uk/
 #url: http://localhost:4000
 
 permalink: pretty
@@ -21,6 +21,4 @@ exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
 
 collections:
   card:
-    output: true
-  location:
     output: true
