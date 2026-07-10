@@ -5,7 +5,7 @@ title: Event Magician
 
 Hiring a Close-up Magician for your guests is the perfect way to help them relax and break the ice with other guests in attendance. This can be particularly useful when certain guests have only just met each other for the first time. Whether it is a wedding, birthday party, charity ball or a dinner party, Marco will entertain your guests creating an atmosphere of amazement and giving them an experience they will go away telling their friends about
 
-The format of your show will depend on the type of event you are hosting and the number of people at the event.  Marco usually charges for a two-hour period and generally finds that's enough time to engage with most of your guests without taking the emphasis away from the main event. He is, of course, happy to stay longer if required.
+The format of your show will depend on the type of event you are hosting and the number of people attending. Marco's event rate usually covers up to two hours, which is generally enough time to engage with most of your guests without taking the emphasis away from the main event. He can often stay longer if required.
 
 Marco can perform in a number of ways, and you can choose one style or a combination to suit your event:
 
@@ -28,4 +28,3 @@ To discuss the format of your specific event and pricing,  [ **contact Marco** ]
 	 {% endfor %}
  </div>
  {% include gallery.html %}
-

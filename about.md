@@ -11,7 +11,7 @@ Marco turned professional in 1986 and has since been in constant demand as both 
  
 In 2006 Phil McIntyre Entertainment presented 'Little Britain' at the Hammersmith Apollo. Dressing room 7A was transformed back into 'Marco's Bar', and Marco was asked to entertain the guests and VIPs pre-show. He performed magic to many celebrities during this time, including Paul McCartney, Elton John, Kate Moss, Russell Brand, Jim Carter, Kylie Minogue, Jonathan Ross, Matt Lucas, Simon Pegg, Natalie Imbruglia, Simon Callow and many more.
  
-Marco has worked with Derren Brown, Dynamo, Troy, Magical Bones and many other outstanding magicians. He was delighted to be invited to a garden party at Buckingham Palace in 1995, and was also asked to entertain celebrities and their guests backstage at Wembley Arena in 1998 during the Nelson Mandela 70th Birthday Tribute. 
+Marco has worked with Derren Brown, Dynamo, Troy, Magical Bones and many other outstanding magicians. He was delighted to be invited to a garden party at Buckingham Palace in 1995, and was also asked to entertain celebrities and their guests backstage at Wembley Stadium during the Nelson Mandela 70th Birthday Tribute in 1988.
 
 Whether performing at a large venue or in a private house, in front of celebrities or at a family party, Marco always provides top class entertainment. If you are looking for an original act to wow your guests, [**get in touch with Marco**](#contact-direct) to find out more. 
 
@@ -23,4 +23,3 @@ Whether performing at a large venue or in a private house, in front of celebriti
 	{% endfor %}
 </div>
 {% include gallery.html %}
-

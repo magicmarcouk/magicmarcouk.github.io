@@ -9,7 +9,7 @@ Below you'll find the answers to some of the most frequently asked questions abo
 
 **Q:  What is the booking process ?**
 
-A:  Booking Marco for your event is simple. Use the online booking page to request a date. When availability is confirmed you will need to send a confirmation email with your full details. No deposit is required, full payment is to be made on the performance day on arrival or before. Payment is by transfer, cheque, or cash.
+A:  Booking Marco for your event is simple. Use the enquiry form to request your date. If Marco is available, he will confirm the details and explain the next steps. No deposit is required; full payment is to be made on or before the performance day. Payment is by bank transfer, cheque or cash.
 
 
 **Q: How far in advance do I need to book?**
@@ -19,12 +19,12 @@ A:  You can book for tomorrow if Marco is available. However the earlier you boo
 
 **Q: How long should I book you for?**
 
-A:  Timing depends on the type of event and the number of guests attending. Marco does not charge an hourly rate, but an event rate, for a duration of two hours. However, he can usually stay longer if required without extra charge. If your event has 50 to 150 guests, two hours is enough time for Marco to visit most of your guests. However if you have more then 150 guests, Marco can add a colleague from his trusted network of magicians who specialise in close-up magic.
+A:  Timing depends on the type of event and the number of guests attending. Marco charges an event rate that usually covers up to two hours. He can often stay longer if required without an extra charge. If your event has 50 to 150 guests, two hours is usually enough time for Marco to visit most of them. For more than 150 guests, Marco can add a colleague from his trusted network of magicians who specialise in close-up magic.
 
 
 **Q: How much does Marco charge?**
 
-A:  Marco has been a professional magician for more than 30 years, his concept has always been value for money and quality of performance. With that in mind, Marco's fee is £400 for up to two hours for events within the M25. Outside the M25 there is a mileage charge of £1 per mile (one way).
+A:  Marco has worked as a professional magician since 1986, with a focus on value for money and quality of performance. Marco's fee is £400 for up to two hours for events within the M25. Outside the M25 there is a mileage charge of £1 per mile (one way).
 
 
 **Q: What if I want you for less than two hours?**
@@ -63,4 +63,3 @@ A:  This depends on the type of event, and what your preference is. For example,
 
 
 If you have any further questions, please [**contact Marco**](#contact-direct).
-

@@ -2,7 +2,7 @@
 layout: front
 ---
 
-Marco has been entertaining people with his magic for over 30 years. This experience, combined with his original tricks, amazing skills and flair for performing, makes him a fantastic choice of Magician for weddings, parties, corporate events and many other occasions.
+Marco has been entertaining people with his magic since 1977. This experience, combined with his original tricks, amazing skills and flair for performing, makes him a fantastic choice of magician for weddings, parties, corporate events and many other occasions.
  
 Being a Magician isn't just about performing tricks, it's about being able to entertain an audience and keep them hooked. Marco is charismatic, has a natural flair for entertainment and provides real humour in his performance. He has many long-standing customers and is repeatedly booked for events year after year. Marco constantly updates and develops new tricks, which keeps his performance original, fresh and exciting.
  
@@ -41,4 +41,3 @@ Marco creates an atmosphere of amazement and fun with his unique style of magic 
 - TV, Film and Video
 - User Forums
 - Winter Ball
-
