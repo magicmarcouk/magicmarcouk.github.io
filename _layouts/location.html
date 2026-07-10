@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+    {% include head.html %}
+
+    <body>
+
+        <!--Header -->
+        {% include header.html %}
+
+        <!--Main -->
+        <main>
+            <div class="w3-container w3-content w3-justify w3-padding-64" style="max-width:800px">
+                <p><a href="{{ '/locations/' | relative_url }}">Areas covered</a></p>
+                <h1 class="w3-center">{{ page.title }}</h1>
+                <br/>
+
+                {{ content | smartify }}
+
+                {% if page.nearby %}
+                <h2>Nearby areas</h2>
+                <p>
+                    {% for area in page.nearby %}
+                        <a href="{{ area.url | relative_url }}">{{ area.name }}</a>{% unless forloop.last %}, {% endunless %}
+                    {% endfor %}
+                </p>
+                {% endif %}
+
+                <br/>
+            </div>
+
+            {% include events.html %}
+            {% include contact.html %}
+        </main>
+
+        {% include footer.html %}
+
+    </body>
+</html>

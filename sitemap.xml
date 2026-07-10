@@ -9,4 +9,9 @@ permalink: /sitemap.xml
     <loc>{{ item.url | replace: 'index.html', '' | absolute_url }}</loc>
   </url>
 {% endif %}{% endfor %}
+{% for item in site.location %}{% if item.sitemap != false and item.noindex != true %}
+  <url>
+    <loc>{{ item.url | replace: 'index.html', '' | absolute_url }}</loc>
+  </url>
+{% endif %}{% endfor %}
 </urlset>

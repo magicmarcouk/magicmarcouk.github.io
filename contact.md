@@ -6,6 +6,8 @@ description: Check Magic Marco's availability for your event and send the date, 
 
 Check whether Marco is available by calling him or completing the enquiry form below. Include your event date, location, event type and approximate number of guests so he can give you a useful response.
 
+Marco performs across [London, Surrey, Berkshire and Hampshire]({{ '/locations/' | relative_url }}), as well as other areas by arrangement.
+
 <div class="w3-center">
   <img src="{{ '/img/about/5.jpg' | relative_url }}" alt="Magic Marco performing close-up magic for guests" width="1280" height="960" style="width:100%;height:auto;">
 </div>

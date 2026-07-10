@@ -22,4 +22,6 @@ The performance can also be personalised for the occasion. A photograph, company
 
 As well as [weddings]({{ '/wedding-magician/' | relative_url }}), [private parties]({{ '/party-magician/' | relative_url }}), [corporate events]({{ '/corporate-magician/' | relative_url }}) and [other special events]({{ '/event-magician/' | relative_url }}), Marco performs at charity balls, dinners, exhibitions, children's parties, bar mitzvahs, Christmas celebrations, product launches and proms.
 
+[See the areas Marco covers]({{ '/locations/' | relative_url }}), including London, Surrey, Berkshire and Hampshire.
+
 [Read more feedback from Marco's clients]({{ '/testimonials/' | relative_url }}) or [enquire about your event](#contact-direct).

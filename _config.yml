@@ -38,5 +38,8 @@ exclude:
 
 
 collections:
+  location:
+    output: true
+    permalink: /locations/:name/
   card:
     output: true

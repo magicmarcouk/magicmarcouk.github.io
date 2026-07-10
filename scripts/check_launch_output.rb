@@ -7,7 +7,7 @@ abort "Missing build directory: #{site_dir}" unless Dir.exist?(site_dir)
 errors = []
 
 generated_files = Dir.glob(File.join(site_dir, "**", "*")).select { |path| File.file?(path) }
-removed_location_pattern = /Guildford|location-magician|london-magician|guildford-magician|_location/i
+removed_location_pattern = /location-magician|guildford-magician|_location/i
 
 generated_files.each do |path|
   next unless File.binread(path).match?(removed_location_pattern)
