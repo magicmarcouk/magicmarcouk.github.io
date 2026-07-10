@@ -11,6 +11,8 @@ Marco can mingle during a drinks reception or coffee break, move between tables 
 
 At exhibitions, close-up magic can attract attention and create an opening for the sales team to speak with visitors. At dinners and networking events, it works as an ice-breaker without requiring guests to leave their groups or tables.
 
+For more specific planning notes, see [exhibition magic]({{ '/exhibition-magician/' | relative_url }}) and [corporate dinner magic]({{ '/corporate-dinner-magician/' | relative_url }}).
+
 ## Connect the magic to your brand
 
 Marco can make a company logo appear on a playing card chosen, inspected and signed by a guest. He can also discuss creating a trick around a product or campaign.

@@ -8,9 +8,15 @@ nearby:
     url: /locations/surrey-magician/
   - name: Berkshire magician
     url: /locations/berkshire-magician/
+  - name: Wiltshire magician
+    url: /locations/wiltshire-magician/
+  - name: Sussex magician
+    url: /locations/sussex-magician/
 ---
 
 Marco can provide close-up, table and stand-up magic for Hampshire weddings, parties, dinners and corporate events. For events where guests are arriving from different places or meeting for the first time, close-up magic helps create conversation quickly.
+
+Hampshire is one of Marco's core service areas, and he also regularly takes bookings across the UK and abroad from his London base.
 
 ## Magic for Hampshire occasions
 

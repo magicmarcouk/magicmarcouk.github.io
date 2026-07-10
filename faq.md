@@ -51,7 +51,7 @@ Marco arrives ready to perform and does not need a changing area. A stand-up per
 
 ### How far will Marco travel?
 
-Marco can travel outside London and the M25. Additional travel costs may apply, so include the venue postcode in your enquiry.
+Yes. Marco is based in London and regularly performs across the UK and abroad. Additional travel costs may apply, so include the venue postcode or international location in your enquiry.
 
 ### Does Marco have public liability insurance?
 

@@ -4,7 +4,9 @@ title: Event Magician
 description: Flexible close-up, table and stand-up magic for charity balls, dinners, club events and special celebrations.
 ---
 
-Close-up magic helps guests relax, break the ice and start conversations. It can work equally well at a charity ball, awards dinner, private dinner, club event or celebration where some guests are meeting for the first time.
+Close-up magic helps guests relax, break the ice and start conversations. It can work equally well at a charity ball, awards night, private celebration, club event or special occasion where some guests are meeting for the first time.
+
+If you are planning a charity event, awards ceremony or seasonal celebration, see the dedicated pages for [charity event magic]({{ '/charity-event-magician/' | relative_url }}), [awards night magic]({{ '/awards-night-magician/' | relative_url }}) and [Christmas party magic]({{ '/christmas-party-magician/' | relative_url }}).
 
 ## Choose a format
 

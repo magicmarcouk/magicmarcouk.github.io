@@ -8,9 +8,13 @@ nearby:
     url: /locations/surrey-magician/
   - name: Berkshire magician
     url: /locations/berkshire-magician/
+  - name: Kent magician
+    url: /locations/kent-magician/
 ---
 
 Marco performs magic for London events where guests need entertainment that works around a busy schedule. Close-up magic is especially useful for drinks receptions, networking sessions, dinners and parties because it does not need a stage or a break in the event.
+
+London is Marco's home base as well as one of his core service areas, and he also regularly takes bookings across the UK and abroad.
 
 ## Magic for London events
 

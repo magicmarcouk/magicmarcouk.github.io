@@ -14,6 +14,8 @@ Marco involved performers and guests in personalised card tricks. Some cards dis
 
 After the production, the signed cards were mounted together to create the poster shown below. It was donated to Comic Relief for a Red Nose Day auction.
 
+If you are planning a fundraising evening, charity ball or auction, see [charity event magic]({{ '/charity-event-magician/' | relative_url }}) for performance ideas.
+
 <div class="w3-center">
 <img src="{{ '/img/about/poster.jpg' | relative_url }}" alt="Charity poster made from playing cards signed by Little Britain performers and guests" width="1280" height="1001" loading="lazy" style="width:100%;height:auto;">
 </div>

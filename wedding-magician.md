@@ -11,6 +11,8 @@ During photographs, Marco can entertain guests who are waiting at the reception 
 
 You can choose close-up magic, table magic, a stand-up performance or a combination. Marco is happy to suggest what has worked well at similar weddings without interrupting the important moments of your day.
 
+For more detail on drinks, photographs and evening guest arrivals, see [wedding reception magic]({{ '/wedding-reception-magician/' | relative_url }}).
+
 ## A personal souvenir
 
 Marco can personalise a trick by making a photograph of the newlyweds appear on a playing card chosen, inspected and signed by a guest. The card can then be kept as a memento of the wedding.

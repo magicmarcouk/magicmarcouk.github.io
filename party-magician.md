@@ -16,6 +16,10 @@ Marco approaches guests at a natural moment and uses humour as part of the perfo
 
 For a special birthday or anniversary, Marco can incorporate a photograph into a playing-card trick. The signed card becomes a souvenir for the guest of honour.
 
+For more specific ideas, see [birthday party magic]({{ '/birthday-party-magician/' | relative_url }}) and [Christmas party magic]({{ '/christmas-party-magician/' | relative_url }}).
+
+Marco can also perform for family milestone celebrations such as [bar mitzvahs]({{ '/bar-mitzvah-magician/' | relative_url }}).
+
 > “In both cases he was the hit of the evening: great magic, very good with people and an excellent entertainer.”
 >
 > — Richard & Julia Jackson
