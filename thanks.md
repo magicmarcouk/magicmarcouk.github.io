@@ -1,10 +1,12 @@
 ---
 layout: default
+title: Thank You for Your Enquiry
 ---
 
-### Thank you for your message!
+Your message has been sent to Marco.
 
-### **Marco responds to every enquiry within 24 hours. Please check your SPAM / JUNK folder in case it gets sent there. Or text me on 07778499377**
+Marco aims to respond to every enquiry within 24 hours. Please check your spam or junk folder if you have not received a reply.
 
-### For urgent enquiries, [**please contact Marco directly**](#contact-direct)
+For an urgent enquiry, call or text Marco on [**07778 499 377**](tel:+447778499377).
 
+[Return to the home page]({{ site.url }}/).
