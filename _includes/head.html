@@ -1,26 +1,85 @@
 <head>
-    <!-- Encoding -->
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Page Title, Description and Keywords -->
-    <title>{{site.title}} {% if page.title %}- {{page.title}} {% endif %}- Extraordinary Close Up Magician </title>
-	<meta name="description" content="Marco (magicmarco.co.uk) is a fabulously entertaining close-up magician who performs magic at weddings, private parties and corporate events" />
-	<meta name="keywords" content="magician, closeup, close-up magician, magic entertainer" />
-	
-    <!-- Stylesheets-->
+    {% assign meta_title = page.title | default: site.title %}
+    {% assign meta_description = page.description | default: site.description %}
+    {% assign canonical_url = page.url | replace: 'index.html', '' | absolute_url %}
+    {% assign social_image = page.image | default: site.social_image | absolute_url %}
+
+    <title>{% if page.title %}{{ meta_title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ meta_description | escape }}">
+    <link rel="canonical" href="{{ canonical_url }}">
+    {% if page.noindex or page.layout == 'card' %}<meta name="robots" content="noindex, follow">{% endif %}
+
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ meta_title | escape }}">
+    <meta property="og:description" content="{{ meta_description | escape }}">
+    <meta property="og:url" content="{{ canonical_url }}">
+    <meta property="og:image" content="{{ social_image }}">
+    <meta property="og:image:alt" content="Magic Marco performing close-up magic for guests">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ meta_title | escape }}">
+    <meta name="twitter:description" content="{{ meta_description | escape }}">
+    <meta name="twitter:image" content="{{ social_image }}">
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="icon" type="image/png" href="{{ '/img/icon.png' | relative_url }}">
 
-    <!-- Icon-->
-    <link rel="icon" type="image/png" href="{{ site.url }}/img/icon.png">
-		
-    <!-- Text Style -->
     <style>
         body {font-family: "Alegreya", sans-serif}
+        a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible, textarea:focus-visible {
+            outline: 3px solid #ffbf47;
+            outline-offset: 3px;
+        }
+        .nav-dropdown {display: inline-block; position: relative; padding: 0 !important;}
+        .nav-dropdown > button {display: block;}
+        .nav-dropdown > .w3-dropdown-content {z-index: 10;}
+        .nav-dropdown:focus-within > .w3-dropdown-content,
+        .nav-dropdown.is-open > .w3-dropdown-content {display: block;}
+        .event-grid {display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));}
+        .event-grid::before, .event-grid::after {display: none; content: none;}
+        .event-card {display: flex; width: auto;}
+        .event-card-inner {display: flex; flex: 1; flex-direction: column;}
+        .event-card-inner img {aspect-ratio: 320 / 214; object-fit: cover;}
+        .event-card-inner .w3-button {margin-top: auto !important;}
+        @media (max-width: 600px) {
+            .event-grid {grid-template-columns: 1fr;}
+        }
     </style>
 
+    {% unless page.layout == 'card' or page.noindex %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "{{ '/' | absolute_url }}#business",
+          "name": "Magic Marco",
+          "url": "{{ '/' | absolute_url }}",
+          "telephone": "+44 7778 499377",
+          "image": "{{ site.social_image | absolute_url }}",
+          "founder": { "@id": "{{ '/' | absolute_url }}#marco" }
+        },
+        {
+          "@type": "Person",
+          "@id": "{{ '/' | absolute_url }}#marco",
+          "name": "Marco",
+          "jobTitle": "Magician",
+          "url": "{{ '/' | absolute_url }}",
+          "telephone": "+44 7778 499377",
+          "sameAs": [
+            "https://facebook.com/magicmarcouk",
+            "https://www.linkedin.com/in/marco-magician-8618bb15/"
+          ]
+        }
+      ]
+    }
+    </script>
+    {% endunless %}
 </head>
-  

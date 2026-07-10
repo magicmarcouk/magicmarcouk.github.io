@@ -1,77 +1,111 @@
-<!-- Navbar -->
-<div class="w3-top w3-black w3-hide-small w3-hide-medium w3-content">
-    <div class="w3-container w3-content w3-justify" style="max-width:800px">
-        <div class="w3-bar w3-card w3-small " >
+<nav class="w3-top w3-black w3-hide-small w3-hide-medium w3-content" aria-label="Main navigation">
+    <div class="w3-container w3-content" style="max-width:800px">
+        <div class="w3-bar w3-card w3-small">
+            <a href="{{ '/' | relative_url }}" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+            <span class="w3-bar-item" aria-hidden="true">&clubs;</span>
 
-            <a href="{{ site.url }}/" class="w3-bar-item w3-button w3-mobile w3-padding-large">HOME </a>
-            <a class="w3-bar-item w3-hide-small " style="padding-top: 12px;padding-bottom: 12px;">&clubs;</a>
-
-            <div class="w3-dropdown-hover w3-mobile"style="padding-top:0px;padding-bottom: 0px;">
-                 <button class="w3-button" style="padding-top:0px;padding-bottom: 0px;"><a href="#" class="w3-bar-item w3-button w3-mobile" style="padding-top:12px;padding-bottom:12px;">EVENTS</a></button>
-                <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
-                    <a href="{{ site.url }}/corporate-magician"   class="w3-bar-item w3-button w3-mobile">Corporate Magician</a>
-					<a href="{{ site.url }}/event-magician"   class="w3-bar-item w3-button w3-mobile">Event Magician</a>
-                    <a href="{{ site.url }}/party-magician"       class="w3-bar-item w3-button w3-mobile">Party Magician</a>
-                    <a href="{{ site.url }}/wedding-magician"     class="w3-bar-item w3-button w3-mobile">Wedding Magician</a>
-
+            <div class="nav-dropdown w3-dropdown-hover w3-bar-item">
+                <button type="button" class="w3-button w3-padding-large" aria-expanded="false" aria-controls="events-menu" onclick="toggleNavDropdown(this)">EVENTS</button>
+                <div id="events-menu" class="w3-dropdown-content w3-bar-block w3-dark-grey">
+                    <a href="{{ '/corporate-magician/' | relative_url }}" class="w3-bar-item w3-button">Corporate Magician</a>
+                    <a href="{{ '/event-magician/' | relative_url }}" class="w3-bar-item w3-button">Event Magician</a>
+                    <a href="{{ '/party-magician/' | relative_url }}" class="w3-bar-item w3-button">Party Magician</a>
+                    <a href="{{ '/wedding-magician/' | relative_url }}" class="w3-bar-item w3-button">Wedding Magician</a>
                 </div>
             </div>
-            <a class="w3-bar-item w3-hide-small" style="padding-top: 12px;padding-bottom: 12px;">&diams;</a>
 
-            <a href="{{ site.url }}/testimonials" class="w3-bar-item w3-button w3-mobile w3-padding-large">TESTIMONIALS</a>
-            <a class="w3-bar-item w3-hide-small" style="padding-top: 12px;padding-bottom: 12px;">&hearts;</a>
+            <span class="w3-bar-item" aria-hidden="true">&diams;</span>
+            <a href="{{ '/testimonials/' | relative_url }}" class="w3-bar-item w3-button w3-padding-large">TESTIMONIALS</a>
+            <span class="w3-bar-item" aria-hidden="true">&hearts;</span>
 
-            <div class="w3-dropdown-hover w3-mobile"style="padding-top:0px;padding-bottom: 0px;">
-                <button class="w3-button"style="padding-top:0px;padding-bottom: 0px;"><a href="#" class="w3-bar-item w3-button w3-mobile"style="padding-top:12px;padding-bottom:12px;" >ABOUT</a></button>
-                <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
-					<a href="{{ site.url }}/about" class="w3-bar-item w3-button w3-mobile">About Marco</a>
-                    <a href="{{ site.url }}/charity-poster"   class="w3-bar-item w3-button w3-mobile">Charity Poster</a>
-                    <a href="{{ site.url }}/clients"          class="w3-bar-item w3-button w3-mobile">Clients</a>
-					<a href="{{ site.url }}/faq"          class="w3-bar-item w3-button w3-mobile">Frequently Asked Questions</a>
+            <div class="nav-dropdown w3-dropdown-hover w3-bar-item">
+                <button type="button" class="w3-button w3-padding-large" aria-expanded="false" aria-controls="about-menu" onclick="toggleNavDropdown(this)">ABOUT</button>
+                <div id="about-menu" class="w3-dropdown-content w3-bar-block w3-dark-grey">
+                    <a href="{{ '/about/' | relative_url }}" class="w3-bar-item w3-button">About Marco</a>
+                    <a href="{{ '/charity-poster/' | relative_url }}" class="w3-bar-item w3-button">Charity Poster</a>
+                    <a href="{{ '/clients/' | relative_url }}" class="w3-bar-item w3-button">Clients</a>
+                    <a href="{{ '/faq/' | relative_url }}" class="w3-bar-item w3-button">Frequently Asked Questions</a>
                 </div>
             </div>
-            <a class="w3-bar-item w3-hide-small" style="padding-top: 12px;padding-bottom: 12px;">&spades;</a>
 
-            <a href="#contact"  class="w3-bar-item w3-button  w3-mobile w3-highway-red"style="padding-top: 12px;padding-bottom: 12px;">CONTACT</a>
+            <span class="w3-bar-item" aria-hidden="true">&spades;</span>
+            <a href="{{ '/contact/' | relative_url }}" class="w3-bar-item w3-button w3-highway-red w3-padding-large">CONTACT</a>
         </div>
     </div>
-</div>
-
-
-<nav class="w3-sidenav w3-white w3-animate-left w3-bar-block  w3-card w3-center " style="display:none;z-index:5">
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-large w3-bar-item w3-center w3-black">Close &times;</a>
-    <a class="w3-bar-item w3-button w3-black" href="{{ site.url }}/"><b>Home</b></a>
-    <a class="w3-bar-item w3-button w3-black" href="#"><b>Events</b></a>
-    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/corporate-magician">Corporate Magician</a>
-	<a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/event-magician">Event Magician</a>
-    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/party-magician">Party Magician</a>
-    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/wedding-magician">Wedding Magician</a>
-    <a class="w3-bar-item w3-button w3-black" href="{{ site.url }}/testimonials"><b>Testimonials</b></a>
-    <a class="w3-bar-item w3-button w3-black" href="#"><b>About</b></a>
-	<a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/about">About Marco</a>
-    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/charity-poster">Charity Poster</a>
-    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/clients">Clients</a>
-        <a class="w3-bar-item w3-button w3-dark-grey" href="{{ site.url }}/faq">FAQ</a>
-        <a class="w3-bar-item w3-button w3-highway-red"href="{{ site.url }}#contact"><b>Contact</b></a>
-    
-
 </nav>
 
-<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"></div>
+<nav id="mobile-navigation" class="w3-sidenav w3-white w3-animate-left w3-bar-block w3-card w3-center" style="display:none;z-index:5" aria-label="Mobile navigation" aria-hidden="true">
+    <button type="button" onclick="w3_close()" class="w3-button w3-large w3-bar-item w3-black">Close <span aria-hidden="true">&times;</span></button>
+    <a class="w3-bar-item w3-button w3-black" href="{{ '/' | relative_url }}"><strong>Home</strong></a>
+    <span class="w3-bar-item w3-black"><strong>Events</strong></span>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ '/corporate-magician/' | relative_url }}">Corporate Magician</a>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ '/event-magician/' | relative_url }}">Event Magician</a>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ '/party-magician/' | relative_url }}">Party Magician</a>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ '/wedding-magician/' | relative_url }}">Wedding Magician</a>
+    <a class="w3-bar-item w3-button w3-black" href="{{ '/testimonials/' | relative_url }}"><strong>Testimonials</strong></a>
+    <span class="w3-bar-item w3-black"><strong>About</strong></span>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ '/about/' | relative_url }}">About Marco</a>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ '/charity-poster/' | relative_url }}">Charity Poster</a>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ '/clients/' | relative_url }}">Clients</a>
+    <a class="w3-bar-item w3-button w3-dark-grey" href="{{ '/faq/' | relative_url }}">FAQ</a>
+    <a class="w3-bar-item w3-button w3-highway-red" href="{{ '/contact/' | relative_url }}"><strong>Contact</strong></a>
+</nav>
 
-<div class="w3-container  w3-black ">
-  <span class="w3-opennav w3-xxlarge" onclick="w3_open()">&#9776;</span>
+<button type="button" class="w3-overlay w3-animate-opacity" onclick="w3_close()" tabindex="-1" aria-label="Close navigation" style="cursor:pointer"></button>
+
+<div class="w3-container w3-black w3-hide-large">
+    <button id="mobile-menu-button" type="button" class="w3-button w3-xxlarge" onclick="w3_open()" aria-controls="mobile-navigation" aria-expanded="false" aria-label="Open menu">
+        <span aria-hidden="true">&#9776;</span><span class="w3-hide">Open menu</span>
+    </button>
 </div>
-     
+
 <script>
+function closeNavDropdowns(exceptButton) {
+    document.querySelectorAll('.nav-dropdown > button').forEach(function (button) {
+        if (button !== exceptButton) {
+            button.setAttribute('aria-expanded', 'false');
+            button.parentElement.classList.remove('is-open');
+        }
+    });
+}
+
+function toggleNavDropdown(button) {
+    var willOpen = button.getAttribute('aria-expanded') !== 'true';
+    closeNavDropdowns(button);
+    button.setAttribute('aria-expanded', String(willOpen));
+    button.parentElement.classList.toggle('is-open', willOpen);
+}
+
 function w3_open() {
-    document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
-    document.getElementsByClassName("w3-overlay")[0].style.display = "block";
+    var navigation = document.getElementById('mobile-navigation');
+    navigation.style.display = 'block';
+    navigation.setAttribute('aria-hidden', 'false');
+    document.getElementsByClassName('w3-overlay')[0].style.display = 'block';
+    document.getElementById('mobile-menu-button').setAttribute('aria-expanded', 'true');
+    navigation.querySelector('button').focus();
 }
+
 function w3_close() {
-    document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
-    document.getElementsByClassName("w3-overlay")[0].style.display = "none";
+    var navigation = document.getElementById('mobile-navigation');
+    navigation.style.display = 'none';
+    navigation.setAttribute('aria-hidden', 'true');
+    document.getElementsByClassName('w3-overlay')[0].style.display = 'none';
+    document.getElementById('mobile-menu-button').setAttribute('aria-expanded', 'false');
+    document.getElementById('mobile-menu-button').focus();
 }
+
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+        closeNavDropdowns();
+    }
+    if (event.key === 'Escape' && document.getElementById('mobile-menu-button').getAttribute('aria-expanded') === 'true') {
+        w3_close();
+    }
+});
+
+document.addEventListener('click', function (event) {
+    if (!event.target.closest('.nav-dropdown')) {
+        closeNavDropdowns();
+    }
+});
 </script>
-
-
